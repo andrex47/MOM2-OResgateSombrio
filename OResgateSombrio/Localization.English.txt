@@ -1,0 +1,284 @@
+.,English
+quest.name,The Shadowy Rescue!
+quest.description,Your wife was kidnapped. \nThis scenario have three possible endings.\nWill you be able to save your wife?\nOr will you find the secret ending?
+quest.authors,Fernando Pereira Heculano
+Event0.text,The rescue
+Event0.button1,Continue
+UI0.text,"After reaching home, you find it was turned into a mess. You start looking for your wife but she is gone. Over the table there is a note:\n"" We have your wife, go to the farm that is 10km from Saint Amarante on North direction. Bring the statuette, if you call the cops she dies.""\nThe statuette was a gift from her grandmother, and once she mentioned that with some of those you could have supernatural knowledge.\n The kidnappers must have been in a hurry or something, because they have forgotten a weapon with the note. Or maybe it was intentional.\nEach investigator gets 2 clues."
+UI0.button1,Continue
+UI1.text,You and a relative of your wife rush to the spot with the statuette and the weapon.\nYou arrive in a small property. The surroundings are dark, and there is a light that guides you to the entrance...
+UI1.button1,Continue
+Token1.text,The door leads to a small room.
+Token1.button1,Continue
+EventPORTILE1.text,Upon entering the house you find the place dimly lit and a terrible climate. Place the tile {MAD20} Entry Hall and {MAD20} Bathroom as indicated.
+EventPORTILE1.button1,Continue
+Event1.text,Place a token as indicated.
+Event1.button1,Continue
+Event2.text,Place a token as indicated.
+Event2.button1,Continue
+Event3.text,The hall has 4 other doors that lead to the other rooms in the house, place the Explore token as indicated.
+Event3.button1,Continue
+Event4.text,Place the investigator miniatures as indicated.
+Event4.button1,Continue
+Event5.text,You can see a man in the dark seated on the couch. Place a token as indicated.
+Event5.button1,Continue
+Token4.text,Explore
+Token4.button1,Continue
+Token3.text,The door is closed but unlocked.
+Token3.button1,Continuar
+Event6.text,The door leads to a dusty room. Remove the marker and add the tile {MAD20} Bedroom 1 and place a Wall as indicated.
+Event6.button1,Continue
+Token13.text,The bed catches your eye because unlike the rest of the room it is not old and musty.\n
+Token13.button1,{action} Inspect
+Event7.text,You start searching for something useful and then at the foot of the bed something you find it, get the {c:QItem2} item and remove the search marker.
+Event7.button1,Continue
+Event8.text,The bed catches your eye. Place a Search Token. The investigator has the option of moving a space to the explored location.
+Event8.button1,Continue
+Token5.text,Did you bring the statuette?
+Token5.button1,{action} Yes, here it is.
+Token5.button2,{action} First show me where is my wife.
+Token5.button3,{action} Attack the man.
+Eventmpc1.text," When you show the statuette to the man he smiles and says: ""you are no longer needed""\nRemove the man token and place a Cultist on the spot."
+Eventmpc1.button1,Continue
+Spawn0.text,""Die you bastard""
+Spawn0.button1,Continue
+EventOhomemChama.button1,Continue
+EventMPC2.text,He takes a picture and show it to you, as he approaches, he tries to surprise and hit your head.({agility};2).
+EventOhomemChama.text,The man calls you.
+EventMPC2.button1,Sucess
+EventMPC2.button2,Failure
+EventMPC2SUC.text,You manage to escape from the blow.\nRemove the token and spawn a cultist on the spot.
+EventMPC2SUC.button1,Continue
+EventMPC3.text,You bastard.\nYou draw the gun and point it at the man.\nRemove the token and spawn a cultist on the spot.
+EventMPC3.button1,Continue
+EventMPC2FRAC.text,You cannot avoid the blow and it knocks you out. Every investigator receives 1 facedown damage.\nRemove the man token.
+EventMPC2FRAC.button1,Continuar
+Event10.text,When you wake up, you noticed you are tied to the foot of the sink. The man took you statuette, discard The Grotesque Stattue. Luckily he didn't find the gun hidden on your back.\n\nPlace the investigators on the Bathroom as indicated.
+Event10.button1,Continue
+Token16.text,The door is closed but unlocked.
+Token16.button1,{action} Explore
+Event11.text,The door is closed but unlocked.\nPlace an Explore token.
+Event11.button1,Continue
+Event12.text,At the corner of the wall behind the tub is a rusty fallen knife. You may reach it with your foot.\nPlace the item {c:QItem6} as indicated.\n
+Event12.button1,Continue
+Event13.text,You may try to set yourself free using that knife.\nPlace an Interaction Token as indicated.
+Event13.button1,Continue
+Token17.text,You reach the knife with your feet. You may attempt to catch it to cut the rope. {will}
+Token17.button1,{action} Attempt to cut it.
+Event14.text,You have managed to get free, receive the item {c:QItem7}. Remove the interaction token.
+Event14.button1,Continue
+Event15.text,You have managed to get free, but you hurted your hands in the process. Suffer 1 facedown damage and remove the Interaction Token.
+Event15.button1,Continue
+Event16.text,You can take the rope. Receive the item {c:Qitem7}.
+Event16.button1,Continue
+Event17.text,You open the door and goes back the main corridor.\n You can see the man that have beated you leave. Spawn a Cultist as indicated and remove the Explore Token.
+Event17.button1,Continue
+Event18.text,Explore
+Event18.button1,{action} Continue
+Token2.button1,Continue
+Spawn1.button1,Continue
+Event19.text, Explore
+Event19.button1,{action} Continue
+Event20.text,The door is unlocked. This room has a stronger light compared to the rest of the house. Discard the Explore Token and place the tile {MAD20} Office as indicated.
+Event20.button1,Continue
+Event21.text,Place a Wall as indicated.
+Event21.button1,Continue
+Token19.text,There is a lot of items, maybe you can find something useful.
+Token19.button1,{action} Continue
+EventItensAleatorios23.button1,Continue
+Eventaleatorio1.text,Remove the Search token. You find... 
+EventITEM2.button1,Continue
+EventITEMES1.button1,Continue
+EventITEM2.text,{c:QItem2}
+EventITEM3.text,{c:QItemest2}
+EventITEMES1.text,{c:QItemest1}
+EventITEM3.button1,Continue
+EventITEM03.button1,Continue
+Event22.text,{c:QItem4}
+EventITEM03.text,{c:QItem3}
+Event22.button1,Continue
+Event23.text,{c:QItem5}
+Event23.button1,Continue
+Event24.text,{c:QItem8}
+Event24.button1,Continue
+Event25.text,The door is stuck. Would you like to force it?
+Event25.button1,{action} Continue
+Event26.text,{action}You lean your weight against the door {strength}.
+Event26.button1,Continue
+Event27.text,You managed to open the door, remove the Token and place the token {MAD20} Study as indicated.
+Event27.button1,Continue
+Event29.text,Place a token on the wall as indicated.
+Event29.button1,Continue
+Token20.text,There are a lot of papers over the table.
+Token20.button1,{action} Search
+Event30.text,You search for something useful. {observation}
+Event30.button1,Continue
+Event31.text,Discard the token.\nYou find a story about a demonic sect. In the journal you found some pictures of wanted men of the sect.\nYou recognize one of them as the man that received you on the entrance. Receive 1 clue and the item...
+Event31.button1,Continue
+Token21.text,It is making a lot of noise!!!
+Token21.button1,{action} Search
+Spawn2.text,A figure jumps out of the basket and flies over the environment. Remove the token. \nSpawn a ghost on the basket spot. Suffer 2 Horrors ({will} negates).
+Spawn2.button1,Continue
+Event32.text,A desk with several reports catches your attention. Place a Search token as indicated.
+Event32.button1,Continue
+Event33.text,In the corner of the room you listen to a woman crying. Looks like it is coming from a basket. Place a Search token. The investigator have the option to move 1 space on the explored area.
+Event33.button1,Continue
+Token2.text,You hear noises from a person on the other side.
+Token9.button1,Continue
+Event34.text,{action}Would you like to explore?
+Event34.button1,Explor
+Event35.text,Remove the Search Token and place the tile {MAD20} Bedroom 2 as indicated. Place a wall and a door as indicated.
+Event35.button1,Continue
+Token22.text,There is something over the couch.
+Token22.button1,{action} Search
+Token23.text,There is some objects on the shelf.
+Token23.button1,Continue
+Event37.text,Remove the token on the couch. When you get closer you noticed it is a hair strand, it looks like it used to belong to your wife. Receive one facedown Horror.
+Event37.button1,Continue
+Event38.text,You can hear some weak noises. ({observation};3).
+Event38.button1,Sucess
+Event38.button2,Failure
+Event39.text,You noticed a person crouched behind the couch. What will you do?
+Event39.button1,Attack
+Event39.button2,Get closer quietly.
+Event40.text,You draw the gun and shoots...\nWhen you get closer you noticed it is a man that was gagged and tied to the foot of the bed. Sadly the shot was fatal, he is dead.
+Event40.button1,Continue
+Event41.text,The noise of the gunshot draws the attention from the kidnappers. Spawn a Deep One Hybrid as indicated.
+Event41.button1,Continue
+Spawn3.text," ""I found him! He killed the traitor!"" ".
+Spawn3.button1,Continue
+Spawn4.text," ""I found him! He killed the traitor!"" ".
+Spawn4.button1,Continue
+Event42.text,You convince yourself that your mind is playing tricks on you. Discard the couch token.
+Event42.button1,Continue
+Event43.text,As you get closer you noticed it is man tha was tied to the foot of the bed, he is also gagged.\nPlace a person token as indicated.
+Event43.button1,Continue
+Event36.text,There are a few objects on the corner. Place a search marker as indicated.
+Event36.button1,Continue
+Event44.text,You notice something on the couch. Place the search marker as indicated. The investigator has the option of moving a space to the explored location.
+Event44.button1,Continue
+Token24.text,The man is with his hands and feet tied, there is way you can release it. You can take the gags out, but fear he'll shout and catch the attention of the kidnappers.
+Token24.button1,{action} Take the gag out
+Event45.text,You take the gag out, the man is very weak.\n MAN - Please help me.\nYOU - Who are you? Where is my wife?.\nMAN - My name is Jacob, i was working with them but, but... but... they are all mad...\nI discovered they were looking into hidden forces, and they want to summon a terrible monster, and that requires human sacrifice, they have a woman...\nYOU -  A woman!?!? Where is her? That is my wife!.\nMAN - Calm down, for the ritual to work they need 3 statuettes, and i have hidden one of them, without it they won't be able to get it going. Receive 2 clues and become Focused.
+Event45.button1,Continue
+Event46.button1,{action} Where is the stattuete?
+Event46.button2,{action} Where is my wife?
+Event47.text,He looks afraid of telling you that({influence};3).
+Event47.button1,Continue
+Event48.text,Well, I have put it in the toilet flush, they would never search for it there.\nPlace a Search token as indicated.\nThe man faints,you cannot talk to him anymore, remove the man token.
+Event48.button1,Continue
+Token26.text,Toilet
+Token26.button1,{action} Open the toilet lid.
+Event49.text,You found a hidden statuette. Remove the Search Token.
+Event49.button1,Continue
+Event50.text,He looks afraid of telling you that({influence};3).
+Event50.button1,Continue
+Event51.text," ""She... is on the attic. The door on the front of the bathroom... Help me, get me out of here..."" .The main faints, You cannot talk to him anymore. Remove the man token and receive 2 clues."
+Event51.button1,Continue
+Event52.text,There is a shelf with several items. place a Search token as indicated. The investigator has the option of moving a space into the explored location.
+Event52.button1,Continue
+Puzzle0.button1,Try
+Event53.text,The door is unlocked. Remove the Explore token, and place the tile {MAD20} Attic and a wall as indicated.
+Event53.button1,Continue
+Token7.text,Door to the attic.
+Token7.button1,Continue
+Event55.text,The lock looks like somekind of mechanism.
+Event55.button1,{action} Try
+Event54.text,It is locked.
+Event54.button1,Continue
+Event56.text,DOES THE INVESTIGATORS HAVE\n AT LEAST\n3 GROTESQUE STATUES?
+Event56.button1,YES
+Event56.button2,NO
+EventNAO.text,In the attic there is...	
+EventNAO.button1,Continue
+Event57.text," Upon entering the attic a cultist looks to you and smiles::\n""Tarde de mais"".\n""I have managed to complete the ritual with only 3 stattuetes. Yours is unecessary."" "
+Event57.button1,Continue
+Event58.text,Spawn a cultist as indicated.
+Event58.button1,Continue
+Event59.text,It is too late, your wife has been transformed into a bizarre creature. Spawn a Deep One as indicated.
+Event59.button1,Continue
+Event60.text,The investigator have the option to more 1 space into the explored area.
+Event60.button1,Continue
+Spawn5.button1,Continue
+Spawn6.button1,Continue
+Event61.text," Upon entering the attic a cultist attacks you:""Give me the statuettes,you bastard!"" "
+Event61.button1,Continue
+Event62.text,Spawn a cultist.
+Event62.button1,Continue
+Spawn7.button1,Continue
+Event63.text,You see your wife layed down with several ritualistic objects around her. Suffer 1 facedown Horror.
+Event63.button1,Continue
+Event64.text,An investigator with at least 3 Groqueste Stattues may attempt to break the ritual. Place an interaction token as indicated.
+Event64.button1,Continue
+Puzzle1.button1,Attempt to break the ritual.
+Event65.text,Remove the Explore token from the door. The investigator may move 1 space into the explored area.
+Event65.button1,Continue
+Token30.text,Your wife.
+Token30.button1,Continue
+Puzzle2.button1,Attempt
+Event66.text,You can decipher the pieces and have managed to arrange the stattuetes. A bluish light begins to envelop his wife, she awakens.\nRemove the Interaction Token.
+Event66.button1,Continue
+Event67.text,She doesn't awsner, looks like she is hypnotized.
+Event67.button1,Continue
+Event68.text,Get...out...here...
+Event68.button1,Continue
+Event69.text,She is weak, you will have to carry her. The investigator that is carrying her will only be able to move 1 space on each movement action.
+Event69.button1,{action} Carry her
+Event69.button2,Leave her
+Event70.text,Remove the token, put it in the same space with the investigator.
+Event70.button1,Continue
+Token31.text,An investigator with at least 3 Grotesque Statues may interact.\n{observation}
+Token31.button1,{action} Attempt it
+Event71.text,You end the game for leaving the home. Place a token as indicated.
+Event71.button1,Continue
+TokenFINAL.button1,HELP ME!!!!
+TokenFINAL.button2,{action} Leave
+Event72.text,A creature surges from the remains of the damaged ritual. Spawn a Deep One as indicated.
+Event72.button1,Continue
+EventMEAJUDE.text,When you hold the doorknob, Jacob, the man who is tied up at the foot of the bed in the bedroom calls you.\nHELP, DON'T LEAVE ME HERE !!!!
+EventMEAJUDE.button1,Go back to rescue him
+EventMEAJUDE.button2,Leave the house
+TokenFINAL.text,Exit door
+Event85.text,{observation} You look for something interesting.
+Event75.text,You think that sound is just coming from your head, it's just imagination.
+Event73.text,You see your wife laying on a bed with various objects of ritual. Place a token as indicated, this is your wife.
+Event73.button1,Continue
+Event74.text,An investigator with 3 Stattuetes can try to stop the ritual. \nPlace an interaction token as indicated.
+Event74.button1,Continue
+Event75.button1,Continue
+UISOZINHOtexto.uitext,You run out of the house. Not believing his wife turned into a monster.\nNo one will believe you, you are alive, but you will spend the rest of your life mourning your loss.\n\n\n\nEND.
+Spawn9.button1,ContinuE
+UICOMESPOSATEXTO.uitext,You leave the house carrying your wife. What looked like a common crime was actually something much more gruesome. The police will probably find your story insane. You better destroy the Statuettes and move with your wife to a place where you will never be found...\n\n\n\n\nEND
+Event76.text,You can not leave Jacob in a place like this. You notice that there is no threat from outside and leaves your wife near the door.
+Event76.button1,Continue
+Token34.text,RELEASE ME!!!
+Token34.button1,{action} Attempt to release Jacob
+Event77.text,Place a token as indicated.\nNow you can move two spaces with a movement action.
+Event77.button1,Continue
+Event78.text,You find this is not a standard knot that is holding Jacob, looks like there is some kind of unnatural power that is attaching him.{lore}
+Event78.button1,Continue
+Puzzle3.button1,Attempt
+Event79.text,You can release Jacob. Remove the token and place it along with your investigator.
+Event79.button1,Continue
+Event80.text,While you are carrying Jacob, you may add two of Damage to a monster while performing an Attack action.
+Event80.button1,Continue
+TokenFINALJACOB.text,Leave the house?
+TokenFINALJACOB.button1,{action} Yes
+UIFINALJACOBTEXTO.uitext," You have managed to get out... You raise your wife with Jacob's help. And they rush to the car.\nYou still can't believe entirely into what happened... The trip to the city is quiet, nobody can speak.\nWhen you arrive the city Jacob descends and disappears among the mists. You destroy the Statuettes. hugs your wife and says: ""It's over..."" \n\n\n\nEND."
+Spawn1.text,The investigator has the option to move a space to the explored location.
+EventItensAleatorios23.text,Remove the Search Token. You found...
+Eventaleatorio1.button1,Continue
+Event84.text,You found...
+Event84.button1,Continue
+Eventfeitico.button1,Continue
+Eventfeitico.text,Receive the spell {c:QItem9}
+Event85.button1,Continue
+Spawn10.button1,Continue
+Spawn11.button1,Continue
+TokenJCOBSEMMODACA.text,Jacob is tired.
+TokenJCOBSEMMODACA.button1,Continue
+Event87.text,Remove the Search Token.
+Event87.button1,Continue
+Event88.text,Jacob tries to loosen himself by forcing the rope, he is very weak and falls close to some boxes.\nPlace the token as indicated.
+Event88.button1,Continue
+Event46.text,He can still walk.

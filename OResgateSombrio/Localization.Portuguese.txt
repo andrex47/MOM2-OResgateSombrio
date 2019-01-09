@@ -1,0 +1,284 @@
+.,Portuguese
+quest.name,O Resgate Sombrio!
+quest.description,Sua esposa foi sequestrada. \nEste cenário tem 3 finais possíveis.\nVocê conseguirá salvar sua esposa?\nOu encontrar o Final secreto?
+quest.authors,Fernando Pereira Heculano
+Event0.text,O RESGATE
+Event0.button1,Continuar
+UI0.text,Ao chegar em sua casa, você se depara com a casa revirada. Assustado você procura por sua esposa mas não a encontra. Em cima da mesa um bilhete:\n" Estamos com sua esposa, vá para o sítio que fica a 10km de São Gonçalo sentido Norte. Traga a Estatueta, se chamar a polícia ela morre.\nA Estaueta foi um presente do avó, ele dizia que com algumas daquelas você teria o conhecimento sobrenatural.\nOs sequestradores deviam estar com pressa ou assustados, pois esqueceram uma arma com bilhete. Ou será que foi proposital.\nCada investigador recebe 2 pistas
+UI0.button1,Continuar
+UI1.text,Você e um parente de sua esposa se apressam para o local com a estatueta e a arma.\nAo chegar avistam uma casa pequena. O local externo é escuro, a luz da lua te guia até entrada....
+UI1.button1,Continuar
+Token1.text,A porta leva a um pequeno cômodo.
+Token1.button1,Continuar
+EventPORTILE1.text,Ao entrar na casa você encontra o local pouco iluminado e um clima terrível. Coloque a peça {MAD20} Hall Entrada e {MAD20} Banheiro como indicado.
+EventPORTILE1.button1,Continuar
+Event1.text,Colque um marcador de parede como indicado.
+Event1.button1,Continuar
+Event2.text,Coloque um marcador de Exploração como indicado.
+Event2.button1,Continuar
+Event3.text,O Hall tem 4 portas que dão acesso a outros comodos na casa, coloque os marcadores de exploração como indicado.
+Event3.button1,Continuar
+Event4.text,Coloque as miniaturas como indicado.
+Event4.button1,Continuar
+Event5.text,Você observa um homem no escuro sentado em uma poltrona. Coloque um marcador conforme indicado.
+Event5.button1,Continuar
+Token4.text,Explorar
+Token4.button1,Continuar
+Token3.text,A porta está encostada.
+Token3.button1,Continuar
+Event6.text,A porta da para um quarto empoeirado. Remova o marcador e adicione a peça {MAD20} Quarto 1 e Parede como indicado.
+Event6.button1,Continuar
+Token13.text,A cama chama sua atenção pois ao contrário do quarto não está velha e mofada.\n
+Token13.button1,{action} Observar
+Event7.text,Você procura e acha no pé da cama algo que pode ser útil, receba o item {c:QItem2} e remova o marcador de procura.
+Event7.button1,Continuar
+Event8.text,A cama te chama atenção. Coloque um marcador de procura. O investigador tem a opção de se mover um espaço para o local explorado.
+Event8.button1,Continuar
+Token5.text,Você trouxe a estatueta?
+Token5.button1,{action} Sim está aqui.
+Token5.button2,{action}Primeiro mostre minha esposa.
+Token5.button3,{action}Ataca o homem.
+Eventmpc1.text,Quando você mostra a estatueta para o homem ele sorri e diz:\nVocê não é mais necessário.l\nRetire o marcador do homem e coloque um Cultista no local.
+Eventmpc1.button1,Continuar
+Spawn0.text,Morra Infeliz
+Spawn0.button1,Continuar
+EventOhomemChama.button1,Continuar
+EventMPC2.text,Ele pega uma fotografia e mostra para você, ao se aproximar ele tenta te surpreender com um golpe em sua cabeça.\nFaça um teste de {agility} 2.
+EventOhomemChama.text,O homem te chama.
+EventMPC2.button1,Sucesso
+EventMPC2.button2,Fracasso
+EventMPC2SUC.text,Você consegue com um ato de reflexo desviar do golpe.\nRemova o marcador do homem e faça aparecer um cultista no local.
+EventMPC2SUC.button1,Continuar
+EventMPC3.text,Seu desgraçado.\nVocê saca arma e aponta para o homem.\nDescarte o marcador do homem e faça aparecer um Cultista no local.
+EventMPC3.button1,Continuar
+EventMPC2FRAC.text,Você não consegue desviar do golpe que accerta em cheio sua nuca e cai inconsciente. Cada investigador sofre um dano voltado para baixo.\nRemova o marcador do homem.
+EventMPC2FRAC.button1,Continuar
+Event10.text,Quando você acorda, percebe que está amarrado no pé de uma pia. O homem pegou sua estatueta, devolva a Estatua Grotesca ao baralho. Por sorte ele não encontrou sua arma escondida nas costas.\n\nColoque as miniaturas de todos investigadores no banheiro como indicado.
+Event10.button1,Continuar
+Token16.text,A porta está encostada.
+Token16.button1,{action} Explorar
+Event11.text,A porta está encostada.\nColoque um marcador de exploração.
+Event11.button1,Continuar
+Event12.text,No canto da parede atrás da banheira há uma faca enferrujada caída. Você pode alcançala com seus pés.\nColoque o item {c:QItem6} como indicado.\n
+Event12.button1,Continuar
+Event13.text,Com  a faca você pode interargir.\nAdicione um marcador de interação.
+Event13.button1,Continuar
+Token17.text,Você joga a faca com os pés para traz de você. E tenta pega-lá para cortar as cordas. {will}
+Token17.button1,{action} Tentar cortar.
+Event14.text,Você consegue se soltar, receba o item {c:QItem7}. E remova o macador de interação.
+Event14.button1,Continuar
+Event15.text,Você consegue se soltar, mas o esforço com as mãos o deixa machucado. Sofra um dano voltado para baixo e descarte o marcador de interação.
+Event15.button1,Continuar
+Event16.text,Você pode levar as cordas. receba o item {c:Qitem7}.
+Event16.button1,Continuar
+Event17.text,Você abre a porta e volta para o corredor central. \nO homem que te bateu o vê sair. Coloque um Cultista como indicado e descarte o marcador de exploração.
+Event17.button1,Continuar
+Event18.text,Explorar
+Event18.button1,{action} Continuar
+Token2.button1,Continuar
+Spawn1.button1,Continuar
+Event19.text, Explorar
+Event19.button1,{action} Continuar
+Event20.text,A porta está destrancada. está sala tem uma forte luz em comparação ao restante da casa. Descarte o marcador de exploração e coloque a peça {MAD20} Escritório como indicado.
+Event20.button1,Continuar
+Event21.text,Coloque uma parede como indicado.
+Event21.button1,Continuar
+Token19.text,Há varios itens, talves você encontre algo útil.
+Token19.button1,{action} Continuar
+EventItensAleatorios23.button1,Continuar
+Eventaleatorio1.text,Remova o marcador de procura. Você encontra... 
+EventITEM2.button1,Continuar
+EventITEMES1.button1,Continuar
+EventITEM2.text,{c:QItem2}
+EventITEM3.text,{c:QItemest2}
+EventITEMES1.text,{c:QItemest1}
+EventITEM3.button1,Continuar
+EventITEM03.button1,Continuar
+Event22.text,{c:QItem4}
+EventITEM03.text,{c:QItem3}
+Event22.button1,Continuar
+Event23.text,{c:QItem5}
+Event23.button1,Continuar
+Event24.text,{c:QItem8}
+Event24.button1,Continuar
+Event25.text,A porta está enterrada. Deseja força-la?
+Event25.button1,{action} Continuar
+Event26.text,{action}Você se esforça para abrir a pota {strength}
+Event26.button1,Continuar
+Event27.text,Você consegue abrir a porta, remova o marcador de procura e adicione a peça {MAD20} Sala de  Leitura como indicado.
+Event27.button1,Continuar
+Event29.text,Coloque um marcador de parede como indicado.
+Event29.button1,Continuar
+Token20.text,Há vários papeis sobre a mesa.
+Token20.button1,{action} Observar
+Event30.text,Você busca encontrar algo útil. {observation}
+Event30.button1,Continuar
+Event31.text,Descarte este marcador.\nVocê encontra uma reportagem sobre uma seita demoniaca. No jornal tem uma foto com alguns homens procurados  desta seita.\nVocê reconhece o homem da foto como aquele que te recebeu na entrada. Receba uma pista e o item...
+Event31.button1,Continuar
+Token21.text,Está fazendo barulho!!!
+Token21.button1,{action} Olhar
+Spawn2.text,Um vulto salta do cesto e sobrevoa o ambiente. Remova o marcador.  \nFaça aparecer um fantasma no espaço do cesto. Receba 2 horrores negados por {will}.
+Spawn2.button1,Continuar
+Event32.text,Uma escrivaninha com várias reportagens chama sua atenção. Coloque um marcador de procura como indicado.
+Event32.button1,Continuar
+Event33.text,No canto da sala você escuta uma mulher chorando. Parece estar vindo de um cesto. Coloque um marcador de procura. O investigador tem a opção de se mover um espaço para o local explorado.
+Event33.button1,Continuar
+Token2.text,Você escuta barulhos de uma pessoa do outro lado.
+Token9.button1,Continuar
+Event34.text,{action}Deseja explorar
+Event34.button1,Explorar
+Event35.text,Remova o macador de procura e coloque a peça {MAD20} Quarto 2 como indicado mais o marcador de parede e porta como indicado.
+Event35.button1,Continuar
+Token22.text,Há alguma coisa em cima do sofá.
+Token22.button1,{action} Observar
+Token23.text,Tem alguns objetos na estante.
+Token23.button1,Continuar
+Event37.text,Remova o marcador do sofá. Quando você chega mais perto percebe qué uma meixa de cabelos iguais ao da sua esposa. Receba um Horror voltado para baixo.
+Event37.button1,Continuar
+Event38.text,Você escuta alguns sons baixos. Faça um teste de {observation} 3
+Event38.button1,Sucesso
+Event38.button2,Fracasso
+Event39.text,Você percebe uma pessoa agachada no canto escuro atrás da cama. O que você faz?
+Event39.button1,Ataca
+Event39.button2,Se aproxima devagar.
+Event40.text,Você saca a arma e atira...\nQuando se aproxima você nota que éra um homem amarrado ao pé da cama e amordaçado. Infelizmente o tiro foi certeiro ele está morto.
+Event40.button1,Continuar
+Event41.text,Com o barulho do tiro você chama a atenção dos sequestradores. Faça aparecer um Hibrido de Abissal no local idicado.
+Event41.button1,Continuar
+Spawn3.text,Encontrei ele, ele matou o traidor.
+Spawn3.button1,Continuar
+Spawn4.text,Eu o encontrei, ele matou o traidor.
+Spawn4.button1,Continuar
+Event42.text,Você se convence que são coisas da sua cabeça. Remova o marcador do sofá.
+Event42.button1,Continuar
+Event43.text,Ao se aproximar você percebe que é um homem amarrado no pé da cama e amordaçado.\nColoque um marcador de pessoa como indicado.
+Event43.button1,Continuar
+Event36.text,No canto tem uma estante com alguns objetos. Coloque um marcador de procura como  indicado.
+Event36.button1,Continuar
+Event44.text,Você nota alguma coisa no sofá. Coloque o macador de procura como indicado. O investigador tem a opção de se mover um espaço para o local explorado.
+Event44.button1,Continuar
+Token24.text,O Homem está com as mãos e os pés amarrados, não tem como se soltar. Você pode tirar as amordaças, mas teme que ele grite e cahame atenção dos sequestradores.
+Token24.button1,{action} tirar a mordaça
+Event45.text,Você tira a mordaça do homem, ele está muito fraco.\nHOMEM - Socorro, me ajude.\nVOCÊ - Quém é você, cadê minha esposa.\nHOMEM - Eu sou Jacob, estava trabalhando com eles, mas... mas... eles são loucos.....\nEu achei que estavam em busca de forças ocultas, poderes, mas eles querem invocar um monstro terrível, e vão sacrificar uma mulher....\nVOCÊ -  Uma Mulher!!!? Aonde ela está, é minha esposa.\nHOMEM - Acalme-se, para o ritual é necessário 3 ESTATUETAS, mas eu escondi uma, sem ela eles não conseguiram completar o sacrifício. Receba 2 pistas e fique compenetrado.
+Event45.button1,Continuar
+Event46.button1,{action} Onde está a estatueta?
+Event46.button2,{action} Onde está minha esposa?
+Event47.text,Ele descnfia que se contar você pode matá-lo. Faça um teste de {influence}
+Event47.button1,Continuar
+Event48.text,Tudo bem, eu a coloquei na descarga do sanitário, eles nunca procurariam lá.\nColoque um marcador de procura como indicado.\nO homem desmaia de fraqueza,não tem como conversar com ele, remova o marcador do homem.
+Event48.button1,Continuar
+Token26.text,Sanitário
+Token26.button1,{action} Abrir a tampa de descarga.
+Event49.text,Você encontra uma Estatueta que foi escondida. Remova esse marcador.
+Event49.button1,Continuar
+Event50.text,Ele  tem medo de contar e você mata-lo. Faça um teste de {influence}
+Event50.button1,Continuar
+Event51.text,Ela... ela está no sotão. A porta de frente com o banheiro... Me ajude, me tire daqui. O homem desmaia, você não consegue mais conversar com ele. Remova o marcado do homem e ganhe 2 pistas.
+Event51.button1,Continuar
+Event52.text,Há uma estante com diversos intens. coloque um marcador de exploração como indicado. O investigador tem a opção de se mover um espaço para o local explorado.
+Event52.button1,Continuar
+Puzzle0.button1,Tentar
+Event53.text,A porta é desbloqueada. Remova o marcador de esxploração, e coloque a peça {MAD20} Sotão como indicado e o marcador de parede.
+Event53.button1,Continuar
+Token7.text,Porta para o sotão.
+Token7.button1,Continuar
+Event55.text,A fechadura parece ser algum tipo de mecanismo.
+Event55.button1,{action} Tentar
+Event54.text,Está trancada.
+Event54.button1,Continuar
+Event56.text,OS INVESTIGADOES POSSUEM NO TOTAL\n AO MENOS\n3 ESTATUESTAS GROTESCAS?
+Event56.button1,SIM
+Event56.button2,NÃO
+EventNAO.text,No sotão há	
+EventNAO.button1,Continuar
+Event57.text,Ao entrar no sotão um cultista olha para você e diz rindo:\nTarde de mais.\nEu consegui fazer o ritual com 3 Estatuetas. A sua é desnecessária.
+Event57.button1,Continuar
+Event58.text,Faça aparecer  Cultista como indicado.
+Event58.button1,Continuar
+Event59.text,É tarde demais, sua esposa se transformou em uma criatura grotesca. Faça aparecer um Abissal como indicado.
+Event59.button1,Continuar
+Event60.text,O investigador tem a opção de se mover um espaço para o local explorado.
+Event60.button1,Continuar
+Spawn5.button1,Continuar
+Spawn6.button1,Continuar
+Event61.text,Ao entrar no sotão um cultista olha para você.\n-Me entregue as Estatuetas. Maldito!
+Event61.button1,Continuar
+Event62.text,Faça aparecer  Cultista como indicado.
+Event62.button1,Continuar
+Spawn7.button1,Continuar
+Event63.text,Você vê sua esposa deitada na cama com vários objetos ritualísticos. Sofra um Horror voltado para baixo.
+Event63.button1,Continuar
+Event64.text,Um investigador que possua ao menos 3 Estatuetas Grotescas pode interagir para quebrar o ritual. Coloque um marcador de interação como indicado.
+Event64.button1,Continuar
+Puzzle1.button1,Tentar
+Event65.text,Remova o marcador de exploracão da porta. O investigador tem a opção de mover um espaço para o local pesquisado.
+Event65.button1,Continuar
+Token30.text,Sua esposa.
+Token30.button1,Continuar
+Puzzle2.button1,Tentar
+Event66.text,Você consegue decifrar as peças e o encaixe perfeito das Estatuetas. Uma luz azulada começa a envolver sua esposa, ela acorda.\nRemova o macador de interação.
+Event66.button1,Continuar
+Event67.text,Ela está em transe
+Event67.button1,Continuar
+Event68.text,Me tira...... daqui....
+Event68.button1,Continuar
+Event69.text,Ela está muito fraca, você tem que carrega-la. O investigador que carrega-la só pode mover um espaço em uma ação de movimento.
+Event69.button1,{action} Carregar
+Event69.button2,Deixa-la
+Event70.text,Remova o marcador da mulher e coloque junto com o investigador.
+Event70.button1,Continuar
+Token31.text,Um investigador com 3 Estatuetas Grotescas pode interagir.\n{observation}
+Token31.button1,{action} Tentar
+Event71.text,Você termina o jogo ao sair da casa. Adicione um marcador conforme indicado.
+Event71.button1,Continuar
+TokenFINAL.button1,ME AJUDE!!!!
+TokenFINAL.button2,{action} Sair
+Event72.text,Uma criatura surge com os lápsos do ritual danificado. Faça aparecer um Abissal como indicado.
+Event72.button1,Continuar
+EventMEAJUDE.text,Quando você segura a maçaneta, Jacob, o homem que está amarrado no pé da cama no quarto te chama.\nSOCORRO, NÃO ME DEIXE AQUI !!!!
+EventMEAJUDE.button1,Voltar para buscá-lo
+EventMEAJUDE.button2,Sair da casa
+TokenFINAL.text,Porta de saída
+Event85.text,{observation} Você procura por algo interssante.
+Event75.text,Você acha que esse som está vindo da sua cabeça, não passa de imaginação.
+Event73.text,Você ve sua esposa deitada em uma cama, com diversos objetos de rituais. Coloque um marcador como indicado, essa é sua esposa.
+Event73.button1,Continuar
+Event74.text,Um investigador com 3 Estatuetas pode tentar parar o ritual. \nColoque o marcador de interação conforme indicado.
+Event74.button1,Continuar
+Event75.button1,Continuar
+UISOZINHOtexto.uitext,Você sai correndo da casa. Não acreditando que sua esposa se transformou em um monstro.\nNinguém acreditará em você, você está vivo, mas vai passar o resto de sua vida lamentando sua perda.\n\n\n\nFIM
+Spawn9.button1,Continuar
+UICOMESPOSATEXTO.uitext,Você sai da casa carregando sua esposa. O que parecia um crime na verdade era algo macabro. A polícia provavelmente vai achar a sua história insana. você acha melhor destruir as Estatuetas e mudar com sua esposa para um lugar onde vocês nunca serão encontrados......\n\n\n\n\nFIM
+Event76.text,Você não pode deixar Jacob em um local como este. Você nota que não há nenhuma ameaça do lado de fora e  deixa sua esposa perto da porta. 
+Event76.button1,Continuar
+Token34.text,ME SOLTE !!!
+Token34.button1,{action} Tentar soltar Jacob
+Event77.text,Adicione um marcador como indicado.\nVocê pode andar dois espaços com uma ação (caso não esteja ferido).
+Event77.button1,Continuar
+Event78.text,Você usa se conhecimento para tentar desmarrá-lo. {lore}
+Event78.button1,Continuar
+Puzzle3.button1,Tentar
+Event79.text,Você consegue soltar Jacob. Remova o marcador e coloque junto com sua miniatura.
+Event79.button1,Continuar
+Event80.text,Enquanto Jacob estiver com você, adicione dois danos a um mostro quando fizer uma ação de ataque.
+Event80.button1,Continuar
+TokenFINALJACOB.text,Sair da casa?
+TokenFINALJACOB.button1,{action} Sim
+UIFINALJACOBTEXTO.uitext,Vocês conseguem sair...  Você levanta sua esposa com ajuda de Jacob. E se apressam para o carro. \nVocê destrói as estatuetas, e parte ainda não acreditando em tudo que passou... A viagem até a cidade é silenciosa, ninguém consegue falar.\nQuando vocês chegam a cidade Jacob desce e some entre as neblinas. Você destrói as Estatuetas. abraça sua esposa e diz Acabou......\n\n\n\nFIM
+Spawn1.text,O investigador tem a opção de mover um espaço para o local explorado.
+EventItensAleatorios23.text,Remova o marcador de procura. Voce encontrou...
+Eventaleatorio1.button1,Continuar
+Event84.text,Você encontra ....
+Event84.button1,Continuar
+Eventfeitico.button1,Continuar
+Eventfeitico.text,Receba o feitiço {c:QItem9}
+Event85.button1,Continuar
+Spawn10.button1,Continuar
+Spawn11.button1,Continuar
+TokenJCOBSEMMODACA.text,Jacob está Cansado.
+TokenJCOBSEMMODACA.button1,Continuar
+Event87.text,Remova o marcador de pocura.
+Event87.button1,Continuar
+Event88.text,Jacob tenta se soltar se scudindo forçando as cosrdas, ele está muito fraco e cai proximo a umas caixas.\nColoque o marcador como indicado.
+Event88.button1,Continuar
+Event46.text,Ele ainda consegue falar com dificuldade.
