@@ -1,0 +1,284 @@
+.,Polish
+quest.name,Mroczny okup!
+quest.description,Twoja żona została porwana.\nTen scenariusz ma 3 możliwe zakończenia.\nCzy uda ci się uratować twoją żonę?\nCzy odnajdziesz sekretne zakończenie?
+quest.authors,Fernando Pereira Heculano, pol. chrismaliszewski
+Event0.text,RATUNEK
+Event0.button1,Kontynuuj
+UI0.text,Po powrocie z rodziną twojej żony do waszego domu, zaskoczeni odkrywacie, że wszystko zostało wywróconego do góry nogami. Przerażony szukasz swojej żony, ale nigdzie jej nie znajdujesz. Jedyne co pozostało, to notatka leżąca na stole:\nTwoja żona jest bezpieczna, na ten moment. Idź do miejsca, które znajduje się 10 km na północy od São Goncało. Przynieś ze sobą Statuetkę. Jeśli zadzwonisz na policję, ona zginie.\nStatuetka była prezentem od twojej babci. Swego czasu babcia powiadała, że dzięki niej można posiąść nadprzyrodzoną wiedzę.\nPorywacze musieli się spieszyć lub bać, bo zapomnieli zabrać ze sobą broni. A może było to celowe?\nKażdy Poszukiwacz otrzymuje 2 {clue}.
+UI0.button1,Kontynuuj
+UI1.text,Ty i krewni twojej żony pośpiesznie zmierzacie do miejsca wskazanego w notatce biorąc ze sobą statuetkę i broń.\nDojeżdżając na miejsce, odnajdujecie niewielki domek. Na zewnątrz jest ciemno i jedynie słabe światło księżyca prowadzi was do wejścia...
+UI1.button1,Kontynuuj
+Token1.text,Drzwi prowadzą do małego pomieszczenia.
+Token1.button1,Kontynuuj
+EventPORTILE1.text,Wchodząc do domu, znajdziesz słabo oświetlone miejsce, a dokoła czuć wiszący w powietrzu straszliwy klimat. Umieść {MAD20} Hall Entrada i {MAD20} Banheiro na planszy.
+EventPORTILE1.button1,Kontynuuj
+Event1.text,Umieścić żeton Ściany na planszy.
+Event1.button1,Kontynuuj
+Event2.text,Umieść żeton Eksploracji na planszy.
+Event2.button1,Kontynuuj
+Event3.text,Hol posiada 4 drzwi, prowadzące do pozostałych pomieszczeń w domu. Umieść żetony Eksploracji na planszy.
+Event3.button1,Kontynuuj
+Event4.text,Umieść Poszukiwaczy we wskazanym miejscu.
+Event4.button1,Kontynuuj
+Event5.text,W ciemności zauważasz mężczyznę siedzącego na fotelu. Umieścić żeton Osoby jak wskazano.
+Event5.button1,Kontynuuj
+Token4.text,Odkryj
+Token4.button1,Kontynuuj
+Token3.text,Drzwi są zatrzaśnięte.
+Token3.button1,Kontynuuj
+Event6.text,Drzwi do zakurzonego pomieszczenia. Usuń żeton i dodaj zakurzone pomieszczenie {MAD20} Quarto 1 i Parede na planszy.
+Event6.button1,Kontynuuj
+Token13.text,Łóżko przyciąga twoją uwagę, ponieważ w przeciwieństwie do pozostałych rzeczy w sypialni nie jest ono stare i zapleśniałe.\n
+Token13.button1,{action} Przeszukaj
+Event7.text,Szukasz i na spodzie łóżka znajdziesz coś, co może być przydatne. Otrzymasz przedmiot {c:QItem2}. Usuń żeton z planszy.
+Event7.button1,Kontynuuj
+Event8.text,Łóżko przyciąga twoją uwagę. Umieść żeton Obserwacji. Możesz przemieścić się o 1 pole na eksplorowany obszar.
+Event8.button1,Kontynuuj
+Token5.text,Czy przyniosłeś statuetkę?
+Token5.button1,{action} Tak, oto ona.
+Token5.button2,{action}Najpierw pokaż moją żonę.
+Token5.button3,{action}Atakuj mężczyznę.
+Eventmpc1.text,Kiedy pokazujesz nieznajomemu statuetkę, ten uśmiecha się i mówi:\nNie jesteś już potrzebny.\nUsuń żeton Osoby i umieść Okultystę na planszy.
+Eventmpc1.button1,Kontynuuj
+Spawn0.text,Nieszczęśliwa śmierć
+Spawn0.button1,Kontynuuj
+EventOhomemChama.button1,Kontynuuj
+EventMPC2.text,Nieznajomy bierze zdjęcie statuetki i kieruje się w twoim kierunku, by ci je pokazać, jednak niepostrzeżenie próbuje zadać ci cios.\nTest zwinności ({agility};2).
+EventOhomemChama.text,Mężczyzna cię wzywa.
+EventMPC2.button1,Sukces
+EventMPC2.button2,Porażka
+EventMPC2SUC.text,Twoje ciało reaguje bezwarunkowo i unikasz niespodziewanego uderzenie w głowę. \nUsuń żeton Osoby i umieść Okultystę na planszy.
+EventMPC2SUC.button1,Kontynuuj
+EventMPC3.text,Draniu!\nWyciągasz zza koszuli pistolet i celujesz w mężczyznę.\nMężczyzna to nie przeraża i przypuszcza atak na ciebie i twoich bliskich.\nUsuń żeton Osoby i umieść na planszy Okultystę.
+EventMPC3.button1,Kontynuuj
+EventMPC2FRAC.text,Nie udaje ci się uciec przed ciosem, który uderza cię w głowę i w wyniku którego padasz nieprzytomny na podłogę. Pozostali członkowie twojej rodziny zostali równie skutecznie obezwładnieni przez nieznajomego. Każdy Poszukiwacz dostaje 1 zakrytą kartę Obrażeń.\nUsuń żeton Osoby z planszy.
+EventMPC2FRAC.button1,Kontynuuj
+Event10.text,Kiedy się budzicie, zdajecie sobie sprawę, że znaleźliście się w nieciekawej sytuacji przywiązani do zlewozmywaka. \nUmieść Poszukiwaczy w wyznaczonym miejscu.\nMężczyzna wziął Statuetkę (usuń Groteskową Statuetkę ze swojego ekwipunku). Na szczęście nie udało mu się znaleźć broni, którą sprytnie schowałeś w swoim odzieniu.
+Event10.button1,Kontynuuj
+Token16.text,Drzwi są zatrzaśnięte.
+Token16.button1,{action} Otwórz
+Event11.text,Drzwi są zatrzaśnięte.\nUmieść żeton Eksploracji.
+Event11.button1,Kontynuuj
+Event12.text,W narożniku za wanną znajduje się zardzewiały nóż. Możesz sięgnąć go nogami.\nUmieść przedmiot {c:QItem6} na planszy.
+Event12.button1,Kontynuuj
+Event13.text,Za pomocą noża, możesz wchodzić w interakcję.\nUmieść żeton Oddziaływania na planszy.
+Event13.button1,Kontynuuj
+Token17.text,Starasz się sięgnąć po nóż, by następnie przeciąć liny. Test {will}.
+Token17.button1,{action} Przetnij.
+Event14.text,Udaje ci się przeciąć liny. Zdobywasz przedmiot {c:QItem7}. Usuń żeton z planszy.
+Event14.button1,Kontynuuj
+Event15.text,Udaje ci się wyspobodzić, ale cały twój wysiłek zostaje okupiony bólem. Otrzymujesz 1 zakryte Obrażenie. Usuń żeton z planszy.
+Event15.button1,Kontynuuj
+Event16.text,Udaje ci się uwolnić z lin. Otrzymujesz przedmiot {c:Qitem7}.
+Event16.button1,Kontynuuj
+Event17.text,Otwierasz powoli łazienkowe drzwi i wracasz do głównego korytarza.\nMężczyzna, który wcześniej was obezwładnił dostrzega was. Umieść Okultystę na planszy.
+Event17.button1,Kontynuuj
+Event18.text,Odkryj
+Event18.button1,{action} Kontynuuj
+Token2.button1,Kontynuuj
+Spawn1.button1,Kontynuuj
+Event19.text, Odkryj
+Event19.button1,{action} Kontynuuj
+Event20.text,Drzwi są odblokowane. W pomieszczeniu znajduje się silne źródło światła w porównaniu z resztą domu. Wyrzucić żeton Eksploracji i umieścić część biura {MAD20} na planszy.
+Event20.button1,Kontynuuj
+Event21.text,Umieść ścianę jak wskazano.
+Event21.button1,Kontynuuj
+Token19.text,Znajduje się tu kupka szpargałów. Może znajdziesz coś użytecznego.
+Token19.button1,{action} Kontynuuj
+EventItensAleatorios23.button1,Kontynuuj
+Eventaleatorio1.text,Usuń żeton Przeszukiwania. Znajdujesz...
+EventITEM2.button1,Kontynuuj
+EventITEMES1.button1,Kontynuuj
+EventITEM2.text,{c:QItem2}
+EventITEM3.text,{c:QItemest2}
+EventITEMES1.text,{c:QItemest1}
+EventITEM3.button1,Kontynuuj
+EventITEM03.button1,Kontynuuj
+Event22.text,{c:QItem4}
+EventITEM03.text,{c:QItem3}
+Event22.button1,Kontynuuj
+Event23.text,{c:QItem5}
+Event23.button1,Kontynuuj
+Event24.text,{c:QItem8}
+Event24.button1,Kontynuuj
+Event25.text,Drzwi są zabarykadowane. Możesz spróbować je wyważyć.
+Event25.button1,{action} Kontynuuj
+Event26.text,{action}Starasz się wyważyć zamek. Test {strength}.
+Event26.button1,Kontynuuj
+Event27.text,Udaje ci się wyważyć drzwi. Usunąć żeton Eksploracji i umieść {MAD20} Czytelni na planszy.
+Event27.button1,Kontynuuj
+Event29.text,Umieść żeton Ściany na planszy.
+Event29.button1,Kontynuuj
+Token20.text,Na stole znajduje się kilka dokumentów.
+Token20.button1,{action} Odkrywaj
+Event30.text,Szukasz czegoś pożytecznego. Test {observation}.
+Event30.button1,Kontynuuj
+Event31.text,Usuń ten żeton.\nZnajdziesz reportaż na temat demonicznej sekty. W gazecie znajduje się obrazek z kilkoma poszukiwanymi mężczyznami, który podejrzewani są o przynależność do niej.\nNa zdjęciu rozpoznajesz mężczyznę, który "przyjął" cię w lobby. Otrzymujesz 1 {clue} i przedmiot...
+Event31.button1,Kontynuuj
+Token21.text,Jakiś hałas!!!
+Token21.button1,{action} Spójrz
+Spawn2.text,Z kosza wyskakuje mroczny cień i zaczyna unosić się w powietrzu. Usuń żeton Przeszukiwania.\nUmieść Ducha w miejscu gdzie znajdował sie przed momentem kosz. Otrzymujesz 2 karty Przerażenia ({will} zapobiega).
+Spawn2.button1,Kontynuuj
+Event32.text,Twoją uwagę zwraca biurko ze stosem dokumentów. Umieść żeton Obserwacji na planszy.
+Event32.button1,Kontynuuj
+Event33.text,W kącie pokoju słychać płaczącą kobietę. Cokolwiek znajduje się w znajdującym się obok niej koszyku, musiało wywołać taką reakcję. Umieść żeton Obserwacji. Poszukiwacz ma możliwość przemieścić się o 1 pole na eksplorowany obszar.
+Event33.button1,Kontynuuj
+Token2.text,Po drugiej stronie słyszysz odgłosy.
+Token9.button1,Kontynuuj
+Event34.text,Otwórz
+Event34.button1,{action} Otwórz
+Event35.text,Usuń żeton Eksploracji i umieść część {MAD20} pokoju 2, żeton Ściany i żeton Drzwi na planszy.
+Event35.button1,Kontynuuj
+Token22.text,Coś jest na kanapie.
+Token22.button1,{action} Odkrywaj
+Token23.text,Na półce znajdują się przedmioty.
+Token23.button1,Kontynuuj
+Event37.text,Usuń żeton. Kiedy zbliżasz się do kobiety, zauważasz, że ma takie same włosy jak twoja żona. Zdobądź 1 zakrytą kartę Przerażenia.
+Event37.button1,Kontynuuj
+Event38.text,Słyszysz ciche dźwięki ({observation};3).
+Event38.button1,Sukces
+Event38.button2,Porażka
+Event39.text,Zauważysz osobę przyczajoną w ciemnym kącie za łóżkiem. Co robisz?
+Event39.button1,Atakuj
+Event39.button2,Zbliż się powoli.
+Event40.text,Wyciągasz broń i strzelasz...\nKiedy się zbliżasz, zauważasz, że był to zabneblowany mężczyzna przywiązany do łóżka. Niestety, strzał był śmiertelny...
+Event40.button1,Kontynuuj
+Event41.text,Hałas wystrzału przyciąga uwagę porywaczy. Umieśc na planszy Hybrydę Otchłani w wyznaczonym miejscu.
+Event41.button1,Kontynuuj
+Spawn3.text,Znalazłem ich. Zabij zdrajcę!
+Spawn3.button1,Kontynuuj
+Spawn4.text,Znalazłem ich. Zabij zdrajcę!
+Spawn4.button1,Kontynuuj
+Event42.text,Przekonujesz się, że to rzeczy które przed chwilą widziałeś, były tylko wytworem twojej wyobraźni. Usuń żeton.
+Event42.button1,Kontynuuj
+Event43.text,Kiedy się zbliżasz, zdajesz sobie sprawę, że to przywiązany do łóżka człowiek. Ktoś go zakneblował.\nUmieść żeton Osoby na planszy.
+Event43.button1,Kontynuuj
+Event36.text,W rogu znajduje się półka z kilkoma przedmiotami. Umieść znacznik Obserwacji na planszy.
+Event36.button1,Kontynuuj
+Event44.text,Zauważasz coś na kanapie. Umieść żeton Obserwacji na planszy. Poszukiwacz ma możliwość przesunięcia się o 1 pole w kierunku eksploracji.
+Event44.button1,Kontynuuj
+Token24.text,Człowiek jest przywiązany rękoma i stopami do łózka. Nie ma sposobu, aby go uwolnić. Możesz wyjąć knebel, ale obawiasz się, że krzyknie i zwróci uwagę porywaczy.
+Token24.button1,{action} Zdejmij
+Event45.text,Bierzesz knebel mężczyzny. Okazuje się, że mężczyzna jest bardzo słaby.\nMĘŻCZYZNA - Pomóż mi! Błagam cię!\nTY - Kim jesteś? Gdzie jest moja żona?!\nMĘŻCZYZNA - Jestem Jacob, pracowałem z nimi, ale... ale... oni są szaleni.....\nOdkryłem, że szukają ukrytych sił i mocy, ale by je posiąść chcą wezwać strasznego potwora i poświęcić kobietę....\nTY -Kobietę!!!? Gdzie ona jest! Ona jest moją żoną!\nMĘŻCZYZNA - Spokojnie. Do rytuału potrzebne są 3 STATUTKI, ale ja ukryłem jedną. Bez niej nie będą w stanie złożyc ofiary. \nOtrzymujesz 2 {clue}.
+Event45.button1,Kontynuuj
+Event46.button1,{action} Gdzie jest statuetka?
+Event46.button2,{action} Gdzie jest moja żona?
+Event47.text,Nie wiem. Jeśli ci powiem, mogą mnie zabić. Test {influence}.
+Event47.button1,Kontynuuj
+Event48.text,No dobrze, włożyłem ją do spłuczki toaletowej. Nigdy się nie domyślą, aby tam szukać.\nUmieść żeton Eksploracji na planszy.\nMężczyzna chwilę potem mdleje z wyczerpania. Nie ma sposobu, by go ocucić. Usuń żeton Osoby.
+Event48.button1,Kontynuuj
+Token26.text,Toaleta
+Token26.button1,{action} Otwórz klapę
+Event49.text,Znajdujesz ukrytą statuetką. Usuń żeton.
+Event49.button1,Kontynuuj
+Event50.text,Mężczyzna boi się cokolwiek tobie powiedzieć, by pozostali go nie zabili. Test {influence}.
+Event50.button1,Kontynuuj
+Event51.text,Ona jest... jest na strychu. Drzwi wejściowe z łazienka.... Pomóż mi, wydostań mnie z tego miejsca. Mężczyzna mdleje. Nie można już z nim rozmawiać. Usuń  żeton Osoby. Otrzymujesz 2 {clue}.
+Event51.button1,Kontynuuj
+Event52.text,W regale znajdują się pułki o różnych kolorach. Umieść żeton Obserwacji na planszy. Poszukiwacz ma możliwość przeniesienia się o 1 pole w kierunku eksploracji.
+Event52.button1,Kontynuuj
+Puzzle0.button1,Spróbuj
+Event53.text,Drzwi są odblokowane. Usuń żeton Eksploracji i umieścić {MAD20} Poddasze oraz żeton Ściany na planszy.
+Event53.button1,Kontynuuj
+Token7.text,Drzwi na strych.
+Token7.button1,Kontynuuj
+Event55.text,Zamek wydaje się być pewnego rodzaju mechanizmem.
+Event55.button1,{action} Spróbuj
+Event54.text,Zamknięte.
+Event54.button1,Kontynuuj
+Event56.text,POSZUKIWACZE MAJĄ W SUMIE\n CO NAJMNIEJ\n3 STATUETKI?
+Event56.button1,TAK
+Event56.button2,NIE
+EventNAO.text,Na poddaszu znajdują się...
+EventNAO.button1,Kontynuuj
+Event57.text,Wchodząc na strych patrzy na ciebie Okultysta i mówi śmiejąc się:\nJest już za późno.\nByłem w stanie wykonać rytuał z trzema statuetkami. Twoja jest już niepotrzebna.
+Event57.button1,Kontynuuj
+Event58.text,Umieść Okultystę na planszy.
+Event58.button1,Kontynuuj
+Event59.text,Jest już za późno, twoja żona zamieniła się w groteskowe stworzenie. Umieść Powtór z odchłani na planszy.
+Event59.button1,Kontynuuj
+Event60.text,Poszukiwacz może przesunąć się o 1 pole w kierunku eksploracji.
+Event60.button1,Kontynuuj
+Spawn5.button1,Kontynuuj
+Spawn6.button1,Kontynuuj
+Event61.text,Wchodząc na strych patrzy na ciebie Okultysta.\n-Daj mi statuetki. Cholera!
+Event61.button1,Kontynuuj
+Event62.text,Umieść Okultystę na planszy.
+Event62.button1,Kontynuuj
+Spawn7.button1,Kontynuuj
+Event63.text,Widzisz swoją żonę leżącą w łóżku z różnymi rytualnymi przedmiotami. Otrzymujesz zakrytą kartę Przerażenia.
+Event63.button1,Kontynuuj
+Event64.text,Umieścić żeton Oddziaływania na planszy. Poszukiwacz, który posiada co najmniej 3 Grotestowe statuetki, może wchodzić w interakcję z żetonem w celu przerwania rytuału.
+Event64.button1,Kontynuuj
+Puzzle1.button1,Spróbuj
+Event65.text,Usuń żeton Eksploracji. Poszukiwacz może przemieścić się o 1 pole w kierunku eksploracji.
+Event65.button1,Kontynuuj
+Token30.text,Sua esposa.
+Token30.button1,Kontynuuj
+Puzzle2.button1,Spróbuj
+Event66.text,Możesz rozszyfrować kawałki i perfekcyjnie dopasować statuetki. Niebieskie światło zaczyna ogarniać jego żonę. Ona się budzi.\nUsuń żeton Oddziaływania.
+Event66.button1,Kontynuuj
+Event67.text,Twoja żona jest w transie.
+Event67.button1,Kontynuuj
+Event68.text,Wyciągnij... mnie stąd...
+Event68.button1,Kontynuuj
+Event69.text,Twoja żona jest bardzo słaba i musisz ją nosić na rękach. Poszukiwacz, który ją przenosi, może tylko przesunąć się tylko o jedno miejsce.
+Event69.button1,{action} Przenieś
+Event69.button2,Pozostaw
+Event70.text,Usuń żeton Osoby i umieść go razem z Poszukiwaczem.
+Event70.button1,Kontynuuj
+Token31.text,Poszukiwacz posiadający 3 Grotestowe statuetki może wchodzić w interakcję z żetonem.\n{observation}
+Token31.button1,{action} Spróbuj
+Event71.text,Wychodząc z domu, zakończysz grę. Dodaj znacznik, jak wskazano.
+Event71.button1,Kontynuuj
+TokenFINAL.button1,POMÓŻ MI!!!!
+TokenFINAL.button2,{action} Wyjdź
+Event72.text,Z uszkodzonego okręgu rytualnego wyłania się stworzenie. Umieść potwora Otchłań na planszy.
+Event72.button1,Kontynuuj
+EventMEAJUDE.text,Gdy masz już wychodzić, Jacob, człowiek przywiązany w sypialni do łóżka woła za tobą.\nPOMÓŻ! NIE OPUSZCZAJ MNIE TUTAJ!
+EventMEAJUDE.button1,Wróć, aby udzielić mu pomocy.
+EventMEAJUDE.button2,Wyjdź z domu
+TokenFINAL.text,Drzwi wyjściowe
+Event85.text,{observation} Szukasz czegoś interesującego.
+Event75.text,Myślisz, że dźwięk pochodzi z twojej głowy, to tylko twoja wyobraźnia.
+Event73.text,Widzisz swoją żonę leżącą na łóżku. Wokół niej znajdują się różne przedmioty rytualne. Umieść żeton Osoby na planszy. To twoja żona.
+Event73.button1,Kontynuuj
+Event74.text,Poszukiwacz z trzema statuetkami może próbować zatrzymać rytuał. \nUmieść żeton Oddziaływania na planszy.
+Event74.button1,Kontynuuj
+Event75.button1,Kontynuuj
+UISOZINHOtexto.uitext,Uciekłeś z domu pozostawiając za sobą swoją żonę. Nie jesteś w stanie uwierzyć, że to monstrum, które tam spotkałeś, było twoją żoną.\nNikt ci nie uwierzy. I choć udało ci się przeżyć, resztę swoje życia spędzisz opłakując swoją stratę.\n\n\n\nKONIEC
+Spawn9.button1,Kontynuuj
+UICOMESPOSATEXTO.uitext,Opuszczasz dom niosąc żonę. To, co wyglądało jak miejsce zbrodni, było w rzeczywistości czymś makabrycznym. Prawdopodobnie policja uzna twoją historię za szaloną. Najlepiej jednak zniszczysz statuetki i uciekasz z żoną do miejsca, w którym nigdy nie zostaniecie odnalezieni ...\n\n\n\n\nKONIEC
+Event76.text,Nie możesz zostawić Jacoba w takim miejscu. Zauważysz, że nie ma zagrożenia i zostawiasz twoją żonę przy drzwiach.
+Event76.button1,Kontynuuj
+Token34.text,Uwolnij mnie!!!
+Token34.button1,{action} Spróbuj uwolnić Jacoba.
+Event77.text,Dodaj żeton na planszę.\nMożesz przemieścić się o 2 miejsca w ramach jednej akcji (jeśli nie jesteś ranny).
+Event77.button1,Kontynuuj
+Event78.text,Używasz tej wiedzy, aby spróbować uwolnić Jacoba. {lore}
+Event78.button1,Kontynuuj
+Puzzle3.button1,Spróbuj
+Event79.text,Udaje ci się uwolnić Jacoba. Usuń żeton Oosby i umieść go wraz z Poszukiwaczem.
+Event79.button1,Kontynuuj
+Event80.text,Podczas gdy Jakub jest z Tobą, zadaj 2 dodatkowe obrażenia potworom podczas wykonywania akcji ataku.
+Event80.button1,Kontynuuj
+TokenFINALJACOB.text,Opuszczasz dom?
+TokenFINALJACOB.button1,{action} Tak
+UIFINALJACOBTEXTO.uitext,Wychodzicie z tego miejsce. Z pomocą Jacoba wynosicie twoją żonę i pośpiesznie idziecie do samochodu.\nNiszczycie posągi nadal nie wierząc we wszystko, co się wydarzyło... Podróż do miasta jest cicha, nikt nie mówić ani słowa.\nKiedy docierasz do miasta, Jakub wychodzi i znika we mgle. Obejmujesz swoją żonę i oświadczasz jej, że to koniec ......\n\n\n\nKONIEC
+Spawn1.text,Poszukiwacz ma możliwość przesunięcia się o 1 miejsce w kierunku eksploracji.
+EventItensAleatorios23.text,Usuń żeton Obserwacji. Odnajdujesz...
+Eventaleatorio1.button1,Kontynuuj
+Event84.text,Odnajdujesz...
+Event84.button1,Kontynuuj
+Eventfeitico.button1,Kontynuuj
+Eventfeitico.text,Zdobywasz zaklęcie {c:QItem9}.
+Event85.button1,Kontynuuj
+Spawn10.button1,Kontynuuj
+Spawn11.button1,Kontynuuj
+TokenJCOBSEMMODACA.text,Jacob jest zmęczony.
+TokenJCOBSEMMODACA.button1,Kontynuuj
+Event87.text,Usuń znacznik Obserwacji.
+Event87.button1,Kontynuuj
+Event88.text,Jacob próbuje się wyspobodzić, trząsając się z całych sił, ale jest bardzo słaby i upada blisko pudeł.\nUmieść żeton na planszy.
+Event88.button1,Kontynuuj
+Event46.text,Twoja żona nadal mówi z trudem.
